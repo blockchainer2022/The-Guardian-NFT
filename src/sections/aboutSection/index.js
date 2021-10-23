@@ -14,11 +14,14 @@ const Index = () => {
         <img src={Img5} alt="" className="util5" />
         <h3
           className="text-primary font-semibold text-3xl md:text-4xl mb-10 lg:mb-28"
-          data-aos="fade-up"
+          data-aos="fade-down"
         >
           Who We Are?
         </h3>
-        <p className="text-sm md:text-lg md:mx-10 lg:mx-20" data-aos="fade-up">
+        <p
+          className="text-sm md:text-lg md:mx-10 lg:mx-20"
+          data-aos="fade-down"
+        >
           Many desktop publishing packages and web page editors now use Lorem
           Ipsum as their default model text, and a search for 'lorem ipsum' will
           uncover many web sites still in their infancy. Various versions have
