@@ -14,6 +14,7 @@ const HeroSection = () => {
               alt=""
               className="banner-img"
               data-aos="fade-in"
+              data-aos-delay="500"
             />
             <img
               src={Img4}
