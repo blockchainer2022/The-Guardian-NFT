@@ -1,8 +1,9 @@
-import BannerImg from "../assets/images/banner-img.png";
+import BannerImg from "../assets/images/banner-img-3.jpg";
 import Img1 from "../assets/images/bg-util1.png";
 import Img2 from "../assets/images/bg-util2.png";
 import Img3 from "../assets/images/bg-util3.png";
 import Img4 from "../assets/images/bg-util4.png";
+
 const HeroSection = () => {
   return (
     <section className="hero py-20 pb-28 bg-secondary ">
@@ -10,10 +11,10 @@ const HeroSection = () => {
         <div className="md:w-1/2  ">
           <div
             className="mb-20 banner-wrapper mx-auto md:mx-0 md:ml-auto relative "
-            data-aos="fade-in"
+            data-aos="fade-down"
             data-aos-delay="1000"
           >
-            <img src={BannerImg} alt="" className="banner-img" />
+            <img src={BannerImg} alt="" className="banner-img md:w-full" />
             <img
               src={Img4}
               alt=""
@@ -27,13 +28,13 @@ const HeroSection = () => {
           <img src={Img3} alt="" className="img3 animate-bounce" />
           <h1
             className="text-primary font-semibold text-3xl sm:text-4xl md:text-5xl"
-            data-aos="fade-in"
+            data-aos="fade-down"
           >
             The Guardian NFT
           </h1>
           <p
             className="my-8 md:my-10 text-sm sm:text-base md:text-lg font-normal sm:mx-10"
-            data-aos="fade-in"
+            data-aos="fade-down"
           >
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
