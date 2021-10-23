@@ -26,12 +26,15 @@ const Index = () => {
     <section className="roadmap py-24">
       <div className="container">
         <div>
-          <h2 className="text-primary text-center text-3xl md:text-4xl font-semibold mb-20">
+          <h2
+            className="text-primary text-center text-3xl md:text-4xl font-semibold mb-20"
+            data-aos="fade-down"
+          >
             Roadmap
           </h2>
         </div>
         <div>
-          <div className="hidden md:block">
+          <div className="hidden md:block" data-aos="fade-down">
             <img src={RoadmapImage} alt="" />
           </div>
           <div>
@@ -40,6 +43,7 @@ const Index = () => {
                 <div
                   className="bg-secondary text-center p-4 py-6 pb-8 my-8"
                   key={i}
+                  data-aos="fade-down"
                 >
                   <span className="w-8 h-8 font-bold bg-primary rounded-full flex items-center justify-center mx-auto">
                     {i + 1}

@@ -7,7 +7,7 @@ const Index = () => {
     <footer className="">
       <div className="py-20">
         <div className="container md:flex">
-          <div className="md:w-2/4 md:pr-20">
+          <div className="md:w-2/4 md:pr-20" data-aos="fade-in">
             <img src={FooterLogo} alt="footer-logo" />
             <p className="text-sm font-light mt-6 mb-10">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -15,7 +15,7 @@ const Index = () => {
               ever since the 1500s.
             </p>
           </div>
-          <div className="md:w-1/4">
+          <div className="md:w-1/4" data-aos="fade-in">
             <h6 className="text-primary text-xl font-medium mb-4">
               QUICK LINKS
             </h6>
@@ -31,7 +31,7 @@ const Index = () => {
               </li>
             </ul>
           </div>
-          <div className="md:w-1/4">
+          <div className="md:w-1/4" data-aos="fade-in">
             <h6 className="text-primary text-xl font-medium mt-6 my-4">
               CONNECT US
             </h6>

@@ -5,10 +5,13 @@ const Index = () => {
       <div className="container md:flex items-center flex-row-reverse">
         <div className="md:w-1/2">
           <div className="faq-img-wrapper mx-auto md:ml-auto mb-20">
-            <img src={FaqImage} alt="" />
+            <img src={FaqImage} alt="" data-aos="fade-left" />
           </div>
         </div>
-        <div className="md:w-1/2 text-center md:text-left">
+        <div
+          className="md:w-1/2 text-center md:text-left"
+          data-aos="fade-right"
+        >
           <h2 className="text-3xl md:text-4xl font-semibold text-primary mb-10">
             How many are going to be minted?
           </h2>
