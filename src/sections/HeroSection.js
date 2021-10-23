@@ -14,7 +14,11 @@ const HeroSection = () => {
             data-aos="fade-down"
             data-aos-delay="1000"
           >
-            <img src={BannerImg} alt="" className="banner-img md:w-full" />
+            <img
+              src={BannerImg}
+              alt=""
+              className="banner-img animate-wiggle md:w-full"
+            />
             <img
               src={Img4}
               alt=""
