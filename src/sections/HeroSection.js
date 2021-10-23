@@ -11,7 +11,7 @@ const HeroSection = () => {
           <div
             className="mb-20 banner-wrapper mx-auto md:mx-0 md:ml-auto relative "
             data-aos="fade-in"
-            data-aos-delay="500"
+            data-aos-delay="1000"
           >
             <img src={BannerImg} alt="" className="banner-img" />
             <img
