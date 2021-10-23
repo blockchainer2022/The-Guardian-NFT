@@ -8,14 +8,12 @@ const HeroSection = () => {
     <section className="hero py-20 pb-28 bg-secondary ">
       <div className="container md:flex md:flex-row-reverse md:items-center">
         <div className="md:w-1/2  ">
-          <div className="mb-20 banner-wrapper mx-auto md:mx-0 md:ml-auto relative ">
-            <img
-              src={BannerImg}
-              alt=""
-              className="banner-img"
-              data-aos="fade-in"
-              data-aos-delay="500"
-            />
+          <div
+            className="mb-20 banner-wrapper mx-auto md:mx-0 md:ml-auto relative "
+            data-aos="fade-in"
+            data-aos-delay="500"
+          >
+            <img src={BannerImg} alt="" className="banner-img" />
             <img
               src={Img4}
               alt=""
