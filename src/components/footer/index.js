@@ -56,7 +56,9 @@ const Index = () => {
         </div>
       </div>
       <div className="bg-secondary text-center py-6">
-        <p>©2021 The Guardian NFT All rights reserved.</p>
+        <p className="text-sm md:text-base">
+          ©2021 The Guardian NFT All rights reserved.
+        </p>
       </div>
     </footer>
   );
