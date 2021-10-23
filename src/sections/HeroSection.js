@@ -13,7 +13,7 @@ const HeroSection = () => {
               src={BannerImg}
               alt=""
               className="banner-img"
-              data-aos="fade-down"
+              data-aos="fade-in"
             />
             <img
               src={Img4}
@@ -28,13 +28,13 @@ const HeroSection = () => {
           <img src={Img3} alt="" className="img3 animate-bounce" />
           <h1
             className="text-primary font-semibold text-3xl sm:text-4xl md:text-5xl"
-            data-aos="fade-down"
+            data-aos="fade-in"
           >
             The Guardian NFT
           </h1>
           <p
             className="my-8 md:my-10 text-sm sm:text-base md:text-lg font-normal sm:mx-10"
-            data-aos="fade-down"
+            data-aos="fade-in"
           >
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
