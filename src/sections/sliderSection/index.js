@@ -72,14 +72,17 @@ const options = {
     0: {
       items: 1,
       margin: 0,
+      dotsEach: 5,
     },
     400: {
       items: 1,
       margin: 0,
+      dotsEach: 5,
     },
     600: {
       items: 2,
       margin: 10,
+      dots: false,
     },
     700: {
       items: 3,
