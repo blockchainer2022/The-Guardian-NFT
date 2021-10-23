@@ -71,12 +71,15 @@ const options = {
   responsive: {
     0: {
       items: 1,
+      margin: 0,
     },
     400: {
-      items: 2,
+      items: 1,
+      margin: 0,
     },
     600: {
       items: 2,
+      margin: 10,
     },
     700: {
       items: 3,
