@@ -21,10 +21,10 @@ const HeroSection = () => {
               className="banner-img animate-wiggle md:w-full"
             /> */}
             <video
-              loop
-              autoPlay
-              muted
-              playsinline
+              autoPlay="true"
+              loop="true"
+              muted="true"
+              playsInline="true"
               className="banner-img animate-wiggle md:w-full"
             >
               <source src={BannerVedio} type="video/mp4"></source>
