@@ -16,18 +16,23 @@ const Index = () => {
           className="text-primary font-semibold text-3xl md:text-4xl mb-10 lg:mb-28"
           data-aos="fade-down"
         >
-          Who We Are?
+          ABOUT US
         </h3>
-        <p
-          className="text-sm md:text-lg md:mx-10 lg:mx-20"
-          data-aos="fade-down"
-        >
-          Many desktop publishing packages and web page editors now use Lorem
-          Ipsum as their default model text, and a search for 'lorem ipsum' will
-          uncover many web sites still in their infancy. Various versions have
-          evolved over the years, sometimes by accident, sometimes on purpose
-          (injected humour and the like).
-        </p>
+        <div data-aos="fade-down">
+          <p className="text-sm md:text-lg md:mx-10 lg:mx-20">
+            The Guardians team is comprised of marketers, designers, and
+            streamers from around the world. We have built and worked with many
+            big names in and out of crypto + NFT’s.
+          </p>
+          <p className="text-sm mt-3 md:text-lg md:mx-10 lg:mx-20">
+            Our mission as Guardians is building a community of holders and
+            making sure that we provide them with some of the greatest benefits
+            possible, including 3D figures, posters, merch, and partnerships
+            with other projects in the metaverse. You can read about this more
+            in our roadmap. Guardians is just the start of our long list of
+            plans.
+          </p>
+        </div>
       </div>
     </section>
   );

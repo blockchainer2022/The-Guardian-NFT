@@ -21,10 +21,10 @@ const HeroSection = () => {
               className="banner-img animate-wiggle md:w-full"
             /> */}
             <video
-              autoPlay="true"
-              loop="true"
-              muted="true"
-              playsInline="true"
+              autoPlay={true}
+              loop={true}
+              muted={true}
+              playsInline={true}
               className="banner-img animate-wiggle md:w-full"
               poster={BannerImg}
             >

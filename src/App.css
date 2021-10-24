@@ -94,11 +94,13 @@ html {
 .slider .owl-dots {
   margin-top: 50px;
 }
-.slider .owl-theme .owl-dots .owl-dot span {
+.slider .owl-theme .owl-dots .owl-dot span,
+.team-wrapper .owl-theme .owl-dots .owl-dot span {
   background-color: #00b2ff;
   opacity: 0.5;
 }
-.slider .owl-theme .owl-dots .owl-dot.active span {
+.slider .owl-theme .owl-dots .owl-dot.active span,
+.team-wrapper .owl-theme .owl-dots .owl-dot.active span {
   background-color: #00b2ff;
   opacity: 1;
 }
@@ -180,4 +182,29 @@ html {
 }
 .footer-social li a:hover path {
   fill: white;
+}
+
+.team-card {
+  width: 100%;
+  max-width: 800px;
+
+  text-align: center;
+}
+
+.team-card path {
+  fill: #00b2ff;
+  width: 18px;
+}
+
+.team-wrapper .owl-theme .owl-dots {
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+@media (max-width: 768px) {
+  .team-wrapper .owl-theme .owl-dots {
+    bottom: -20%;
+  }
 }

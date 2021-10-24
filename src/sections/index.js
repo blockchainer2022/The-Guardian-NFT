@@ -4,3 +4,4 @@ export { default as SliderSection } from "./sliderSection";
 export { default as RoadmapSection } from "./roadmapSection";
 export { default as AboutSection } from "./aboutSection";
 export { default as JoinSection } from "./joinSection";
+export { default as TeamSection } from "./teamSection";

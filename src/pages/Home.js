@@ -9,6 +9,7 @@ import {
   RoadmapSection,
   AboutSection,
   JoinSection,
+  TeamSection,
 } from "../sections";
 const Home = () => {
   const [show, setShow] = useState(false);
@@ -36,6 +37,7 @@ const Home = () => {
         <SliderSection />
         <RoadmapSection />
         <AboutSection />
+        <TeamSection />
         <JoinSection />
       </Layout>
     </div>
