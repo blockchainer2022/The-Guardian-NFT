@@ -21,13 +21,14 @@ const HeroSection = () => {
               className="banner-img animate-wiggle md:w-full"
             /> */}
             <video
-              src={BannerVedio}
               loop
               autoPlay
               muted
               poster={BannerImg}
               className="banner-img animate-wiggle md:w-full"
-            ></video>
+            >
+              <source src={BannerVedio} type="video/mp4"></source>
+            </video>
 
             <img
               src={Img4}
