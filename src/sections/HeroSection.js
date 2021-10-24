@@ -1,4 +1,4 @@
-// import BannerImg from "../assets/images/hero-bg-min.gif";
+import BannerImg from "../assets/images/banner-img-3.jpg";
 import BannerVedio from "../assets/images/hero-bg.mp4";
 import Img1 from "../assets/images/bg-util1.png";
 import Img2 from "../assets/images/bg-util2.png";
@@ -25,6 +25,7 @@ const HeroSection = () => {
               loop
               autoPlay
               muted
+              poster={BannerImg}
               className="banner-img animate-wiggle md:w-full"
             ></video>
 
