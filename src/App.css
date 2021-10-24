@@ -3,6 +3,7 @@ html {
 }
 body {
   line-height: 1.3;
+  overflow-x: hidden;
 }
 
 .click-to-top {
