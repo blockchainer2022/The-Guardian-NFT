@@ -1,4 +1,5 @@
-import BannerImg from "../assets/images/hero-bg-min.gif";
+// import BannerImg from "../assets/images/hero-bg-min.gif";
+import BannerVedio from "../assets/images/hero-bg.mp4";
 import Img1 from "../assets/images/bg-util1.png";
 import Img2 from "../assets/images/bg-util2.png";
 import Img3 from "../assets/images/bg-util3.png";
@@ -8,17 +9,25 @@ const HeroSection = () => {
   return (
     <section className="hero py-20 pb-28 bg-secondary ">
       <div className="container md:flex md:flex-row-reverse md:items-center">
-        <div className="md:w-1/2  ">
+        <div className="md:w-1/2">
           <div
             className="mb-20 banner-wrapper mx-auto md:mx-0 md:ml-auto relative "
             data-aos="fade-down"
             data-aos-delay="1000"
           >
-            <img
+            {/* <img
               src={BannerImg}
               alt=""
               className="banner-img animate-wiggle md:w-full"
-            />
+            /> */}
+            <video
+              src={BannerVedio}
+              loop
+              autoPlay
+              muted
+              className="banner-img animate-wiggle md:w-full"
+            ></video>
+
             <img
               src={Img4}
               alt=""
