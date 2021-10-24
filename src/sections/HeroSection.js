@@ -1,4 +1,4 @@
-import BannerImg from "../assets/images/banner-img-3.jpg";
+import BannerImg from "../assets/images/hero-bg-min.gif";
 import Img1 from "../assets/images/bg-util1.png";
 import Img2 from "../assets/images/bg-util2.png";
 import Img3 from "../assets/images/bg-util3.png";
